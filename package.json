@@ -19,7 +19,7 @@
     "grunt-contrib-uglify": "^0.7.0",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-run": "^0.3.0",
-    "imtables": "^2.0.0-beta-1",
+    "imtables": "^2.0.0-beta-2",
     "serve": "^1.4.0"
   }
 }

@@ -1,8 +1,34 @@
 @brand-primary: #5c0075;
 @brand-secondary: #c3c3c3;
+@brand-secondary-contrast: @brand-primary;
+
+@brand-info: rgb(149, 100, 167);
+@state-info-bg: #f0e3f4;
+@state-info-text: rgb(108, 73, 118);
+
+@column-header-bg: lighten(@brand-secondary, 15%);
 
 @inactive-cell-link-color: @text-color;
 @inactive-cell-link-hover-color: darken(@text-color, 15%);
 
 @border-radius-base: 0px;
 @border-radius-large: 0px;
+
+.im-column-th {
+    .im-th-button {
+        i {
+            height: 1em;
+            width: 1em;
+            border-radius: 0.5em;
+        }
+    }
+    .im-has-constraint {
+        .im-th-button.im-col-filters {
+            i {
+                color: @brand-primary-contrast;
+                background: @brand-primary;
+            }
+        }
+    }
+}
+
