@@ -3,6 +3,9 @@
 set -e
 
 rm -rf dist
+rm -rf fonts
 mkdir dist
+
+ln -s node_modules/imtables/fonts fonts
 
 create-imtables-style ./less/overrides.less > dist/flytables.css
