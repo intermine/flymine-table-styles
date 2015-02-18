@@ -3,13 +3,18 @@
   "version": "1.0.0",
   "description": "imtables styles for FlyMine",
   "main": "index.js",
+  "config": {
+    "port": "9000"
+  },
   "scripts": {
     "build": "./bin/build",
+    "start": "npm run build && ./bin/dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Alex Kalderimis",
   "license": "LGPL",
   "devDependencies": {
-    "imtables": "^2.0.0-beta-1"
+    "imtables": "^2.0.0-beta-1",
+    "serve": "^1.4.0"
   }
 }
