@@ -1,0 +1,15 @@
+{
+  "name": "flymine-imtables-styles",
+  "version": "1.0.0",
+  "description": "imtables styles for FlyMine",
+  "main": "index.js",
+  "scripts": {
+    "build": "./bin/build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Kalderimis",
+  "license": "LGPL",
+  "devDependencies": {
+    "imtables": "^2.0.0-beta-1"
+  }
+}
