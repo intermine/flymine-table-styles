@@ -5,7 +5,7 @@ if test -e .env; then
 fi
 
 if test -z $PORT; then
-    PORT="$npm_package_config_port"
+    PORT=$(npm config get port)
 fi
 
 serve --port $PORT

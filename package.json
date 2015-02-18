@@ -8,12 +8,17 @@
   },
   "scripts": {
     "build": "./bin/build",
-    "start": "npm run build && ./bin/dev-server",
+    "start": "grunt serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Alex Kalderimis",
   "license": "LGPL",
   "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-uglify": "^0.7.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-run": "^0.3.0",
     "imtables": "^2.0.0-beta-1",
     "serve": "^1.4.0"
   }
